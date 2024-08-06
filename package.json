@@ -3,13 +3,14 @@
   "displayName": "Svelte Dot Runes",
   "description": "Create svelte runes using dot notation",
   "version": "1.0.0",
+  "icon": "./dotruneslogo.png",
   "engines": {
     "vscode": "^1.92.0"
   },
   "publisher": "AKCodeWorks",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/AKCodeWorks/svelte-dot-runes"
   },
   "categories": [
     "Other"
@@ -27,10 +28,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile && pnpm run lint",
     "lint": "eslint src --ext ts",
     "test": "vscode-test"
   },
