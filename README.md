@@ -1,4 +1,4 @@
-# svelte-dot-runes README
+# Svelte Dot Runes
 
 Enjoy writing out SvelteJS runes using dot notation.
 
